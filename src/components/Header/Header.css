@@ -1,0 +1,33 @@
+.topnav{
+    background-color: #2a2a2a;
+    overflow: hidden;
+    display: flex;
+   
+    font-family: "poppins" ,sans-serif  ;
+
+}
+a:-webkit-any-link{text-decoration: none;}
+
+.inner{
+    margin-left: 20rem;
+    padding: 12px;
+    text-decoration: none;
+     
+}
+ul{
+    list-style-type: none  ;
+    overflow: hidden;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px; 
+    
+}
+ul li{
+    float: left;
+    color: white;
+    padding: 5px;
+    margin-right: 12px;
+  
+}

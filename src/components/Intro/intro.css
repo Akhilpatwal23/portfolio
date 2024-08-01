@@ -1,0 +1,10 @@
+.car2{
+
+    transition: transform 0.5s;
+    
+}
+
+
+.car2:hover{
+    transform: scale(1.05);
+}
