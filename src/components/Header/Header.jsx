@@ -8,7 +8,7 @@ export default function Header() {
     <div className='topnav border-b-4 border-gray-700'>
       <div className='inner'>
         <RouterLink to='/'>
-          <h1 className='font-bold text-slate-100 text-3xl'>@Akhil_Patwal</h1>
+          <h1 className='font-bold text-slate-100  text-3xl'>@Akhil_Patwal</h1>
         </RouterLink>
         
         <ul className='f'>
