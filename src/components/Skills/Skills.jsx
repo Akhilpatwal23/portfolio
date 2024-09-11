@@ -22,8 +22,8 @@ const Skills = () => {
         <section id="skills">
         <div className="container px-5 py-10 mx-auto">
           <div className="text-center mb-10">
-            <CpuChipIcon className="w-10 inline-block mb-4 text-white" />
-            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+            <CpuChipIcon className="w-10 inline-block mb-1 text-white" />
+            <h1 className="text-white text-center mt-6 mb-3 text-5xl  font-bold">
               Skills &amp; Technologies
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 text-slate-400 mx-auto">

@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
 import spaceInvaderImage from '../../assets/spaceinvader.png';
+import spotify from '../../assets/spotify.png';
+import Eaternity from '../../assets/Eaternity.png';
 const Card = () => {
   const projects = [
-  
     {
-      title: "📊 Ecommerce WebApp",
-      description: " A full-stack E-commerce WebApp built with React, Redux, and Firebase, featuring user authentication, product search, and cart functionality. The backend is powered by Firebase Firestore and Firebase Authentication, with Stripe integration for secure payments. The application offers a seamless shopping experience for users, with real-time updates and responsiveness.",
-      image: ""
+      title: "📊 Spotify Clone",
+      description: "A Spotify-inspired music player built with React and Tailwind CSS. featuring Functional music player with playback controls,Album and song listings,Song selection and playback functionality,Real-time display of current time and song duration,Interactive seekbar for track navigation",
+      image: `${spotify}`
+    },
+    {
+      title: "🎨 Eaternity",
+      description: "A captivating restaurant website UI built with ReactJS and Tailwind CSS, featuring smooth AOS animations and full responsiveness across all devices. This static design showcases the menu, ambiance, and key information with elegant layouts that adapt seamlessly to desktop, tablet, and mobile screens.",
+      image: `${Eaternity}` 
     },
     {
       title: "📝 Blog App",
@@ -15,14 +21,15 @@ const Card = () => {
     },
     {
       title: "🎨 Space Invader",
-      description: "A simple Arcade Game using Python with basic functionalities like moving the spaceship, shooting bullets, and destroying aliens.  ",
+      description: "A simple Arcade Game using Python with basic functionalities like moving the spaceship, shooting bullets, and destroying aliens.",
       image: `${spaceInvaderImage}` 
     },
     {
-      title: " 📚  Placement cell Managment System",
-      description: "A simple Placement cell Management System using C++ with basic functionalities like adding, deleting, and searching students.",
+      title: "📚 Placement cell Management System",
+      description: "Placement cell Management System is a web-based application developed using Mern Stack (react,node express mongodb ). This project is an online platform for students to register for placements, view job listings, and apply for jobs. Admins can manage student and company data, post job listings, and track student applications.",
       image: "" 
     }
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,22 +43,22 @@ const Card = () => {
   };
 
   return (
-    <div className="w-3/6  mx-auto p-10   mt-16 mb-2" id='mywork'>
-      <h1 className='text-5xl text-center text-white mb-4'>👷‍♂️ Previous Projects 👷‍♂️</h1>
-      <div className='flex items-center justify-between h-full text-white'>
-        <button onClick={prevProject} className="text-3xl px-4">&lt;</button>
-        <div className=" w-auto h-auto  border car2 dark:border-gray-700 rounded-lg m-2 p-3 flex flex-col items-center ">
-          <div className="w-100 h-90 m-3 overflow-hidden rounded-lg">
+    <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 mt-8 mb-2" id='mywork'>
+      <h1 className='text-white text-center mt-6 mb-3 text-5xl  font-bold'> Previous Projects </h1>
+      <div className='flex flex-col sm:flex-row items-center justify-between h-full text-white'>
+        <button onClick={prevProject} className="text-3xl px-4 py-2 sm:py-0">&lt;</button>
+        <div className="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 border car2 dark:border-gray-700 rounded-lg m-2 p-4 flex flex-col items-center">
+          <div className="w-full h-48 sm:h-64 md:h-72 lg:h-80 mb-4 overflow-hidden rounded-lg">
             <img 
-              src={projects[currentIndex].image} 
+              src={projects[currentIndex].image || 'https://via.placeholder.com/400x300?text=No+Image'} 
               alt={projects[currentIndex].title} 
               className="w-full h-full object-cover"
             />
           </div>
-          <h1 className="text-2xl font-bold mb-2 text-center">{projects[currentIndex].title}</h1>
-          <p className="text-slate-400 text-center">{projects[currentIndex].description}</p>
+          <h2 className="text-xl sm:text-2xl font-bold mb-2 text-center">{projects[currentIndex].title}</h2>
+          <p className="text-sm sm:text-base text-slate-400 text-center">{projects[currentIndex].description}</p>
         </div>
-        <button onClick={nextProject} className="text-3xl px-4">&gt;</button>
+        <button onClick={nextProject} className="text-3xl px-4 py-2 sm:py-0">&gt;</button>
       </div>
     </div>
   );
