@@ -10,11 +10,7 @@ const Home = () => {
   return (
     <div id='home'>
 
-  <div>
-    <h1 className="Title mb-3 " id="home1"> 
-    "I'm gonna be the<span style={{color:'#FFA500'  }  }> King of Coders!" </span> 
-    </h1>
-  </div>
+  
       <Intro />
        <Card/> 
        <Skills/>

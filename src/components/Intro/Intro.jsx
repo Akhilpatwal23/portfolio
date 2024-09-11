@@ -4,7 +4,7 @@ import { IoDownloadOutline } from "react-icons/io5";
 const Intro = () => {
   return (
     <>
-    <div className="w-3/4 mx-auto " >
+    <div className="w-3/4 mx-auto mt-10" >
       <div 
          className="bg-white card bg-opacity-50 border 
                     rounded-lg shadow dark:bg-gray-800 
