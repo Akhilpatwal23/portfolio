@@ -23,7 +23,7 @@ const Intro = () => {
             <img className='rounded-full w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover shadow-lg' src="https://i.ibb.co/dKLbxGC/Untitled42.png" alt="Akhil Patwal" />
             <h1 className='text-white text-center mt-6 text-3xl font-bold'>Akhil Patwal</h1>
             <div className='text-blue-400 text-center mb-6'>@Zenkai</div>
-            <Link to="https://drive.google.com/file/d/1CXwTCwSA5pZ-IrvSgtksUtwUc-9BekDJ/view?usp=sharing" 
+            <Link to="https://drive.google.com/file/d/12Y9BCPPwA59EgDjUMpr7rujgG7n7G7hD/view?usp=sharing" 
                   className='inline-flex items-center px-6 py-3 text-lg font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50'>
               Resume <IoDownloadOutline className='ml-2'/>
             </Link>
@@ -41,7 +41,7 @@ const Intro = () => {
               },
               {
                 title: "🎨 Creativity",
-                content: "As a final year Engineering Student, I see programming as a blend of art and gaming. I approach coding challenges like solving intricate puzzles, creating visually appealing and functional websites, and tackling complex problems with the determination of conquering a tough game level."
+                content: "As a Fresher who just started his carrer, I see programming as a blend of art and gaming. I approach coding challenges like solving intricate puzzles, creating visually appealing and functional websites, and tackling complex problems with the determination of conquering a tough game level."
               },
               {
                 title: "📜 Background",

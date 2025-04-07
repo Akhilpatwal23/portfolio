@@ -5,7 +5,13 @@ const Skills = () => {
         "HTML",
         "CSS",
         "C/C++",
-      
+        "SQL",
+        "PL/SQL",
+        "Oracle SQL",
+        "Oracle D2k",
+        "D2k Forms",
+        "D2k Reports",
+
         "JavaScript",
         "React",
         "Node.js",
