@@ -44,7 +44,7 @@ const Card = () => {
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 mt-8 mb-2" id='mywork'>
-      <h1 className='text-white text-center mt-6 mb-3 text-5xl  font-bold'> Previous Projects </h1>
+      <h1 className='text-white text-center mt-6 mb-3 text-5xl  font-bold'>Projects </h1>
       <div className='flex flex-col sm:flex-row items-center justify-between h-full text-white'>
         <button onClick={prevProject} className="text-3xl px-4 py-2 sm:py-0">&lt;</button>
         <div className="w-full sm:w-4/5 md:w-3/4 lg:w-2/3 border car2 dark:border-gray-700 rounded-lg m-2 p-4 flex flex-col items-center">

@@ -37,15 +37,15 @@ const Intro = () => {
               },
               {
                 title: "💻 Skills",
-                content: "Proficient in C, C++, JavaScript, HTML, and CSS. Experienced in version control with Git and GitHub. Developed multiple projects showcasing web development and programming skills."
+                content: "Proficient in C, C++, JavaScript, HTML, and CSS. Experienced in version control with Git and GitHub. Skilled in Java and Selenium with hands-on experience in automating different web applications, including Oracle Fusion, EPM, Salesforce. Developed multiple projects showcasing web development, programming, and test automation skills."
               },
               {
                 title: "🎨 Creativity",
-                content: "As a Fresher who just started his carrer, I see programming as a blend of art and gaming. I approach coding challenges like solving intricate puzzles, creating visually appealing and functional websites, and tackling complex problems with the determination of conquering a tough game level."
+                content: "As someone who has just started working in the tech industry, what keeps me motivated is tackling challenges by solving intricate puzzles. I approach programming as a blend of art and gaming—building visually appealing and functional websites, and overcoming complex problems with the determination of conquering a tough game level."
               },
               {
                 title: "📜 Background",
-                content: "22 years old, originally from Uttarakhand, India, now based in New Delhi. Recently graduated with a B.Tech degree from Dronacharya Group of Institutions. Passionate about emerging technologies and solving real-world problems through innovative coding solutions."
+                content: "23 years old, originally from Uttarakhand, India, now based in New Delhi.Graduated with a B.Tech degree from Dronacharya Group of Institutions."
               }
             ].map((item, index) => (
               <div key={index} className="bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition duration-300 ease-in-out">
