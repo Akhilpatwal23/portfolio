@@ -5,6 +5,8 @@ import Intro from '../Intro/Intro';
 import Card from '../my work/Card';
 import Skills from '../Skills/Skills';
 import Contactus from '../Contactus/Contactus';
+import CareerTimeline from '../CareerTimeline'
+
 
 const Home = () => {
   return (
@@ -21,6 +23,7 @@ const Home = () => {
         />
       </h1>
       <Intro />
+      <CareerTimeline className="my-8" />
       <Card className="my-8" />
       <Skills className="my-8" />
       <Contactus className="my-8" />

@@ -33,11 +33,11 @@ const Intro = () => {
             {[
               {
                 title: "👋 About Me",
-                content: "Hello! I'm Akhil Patwal. Welcome to my portfolio, I'm excited to share my journey with you! Feel free to explore, ask questions, and connect with me. I'm always open to new ideas, exciting projects, and meaningful conversations. Together, we might just create something extraordinary!"
+                content: "Hello! I'm Akhil Patwal. Welcome to my portfolio, I am currently working as a Test Engineer – Automation, specializing in Java and Selenium for automating web applications. I have hands-on experience in building and executing automated test scripts, identifying defects, and ensuring application quality across different environments."
               },
               {
                 title: "💻 Skills",
-                content: "Proficient in C, C++, JavaScript, HTML, and CSS. Experienced in version control with Git and GitHub. Skilled in Java and Selenium with hands-on experience in automating different web applications, including Oracle Fusion, EPM, Salesforce. Developed multiple projects showcasing web development, programming, and test automation skills."
+                content: "Proficient in  C, C++, JavaScript, HTML, and CSS. Experienced in version control with Git and GitHub. Skilled in Java and Selenium with hands-on experience in automating different web applications, including Oracle Fusion, EPM, Salesforce. Developed multiple projects showcasing web development, programming, and test automation skills."
               },
               {
                 title: "🎨 Creativity",
